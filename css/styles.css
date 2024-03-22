@@ -1,5 +1,55 @@
-.btn {
-  background-color: red;
+/* categories colours */
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  margin: 0;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin-block: 308px;
+  font-family: "Hanken Grotesk", sans-serif;
+  max-width: 100%;
+}
+.card__score-board {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  text-align: center;
+  padding: 40px 30px 30px 30px;
+  border-radius: 30px;
+  max-width: 400px;
+}
+.card__score-board .card__title {
+  padding-bottom: 30px;
+  color: hsl(241, 100%, 89%);
+  font-weight: 800;
+}
+.card__score-board .card__score-circle {
+  background-image: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.card__score-board .card__score-circle .user-score {
+  color: hsl(0, 0%, 100%);
+  font-size: 80px;
+  font-weight: 800;
+}
+.card__score-board .card__score-circle .top-score {
+  color: hsl(241, 100%, 89%);
+}
+.card__score-board .card__score-category {
+  padding-block: 22px;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+}
+.card__score-board .card__score-description {
+  padding: 0 40px 40px 40px;
+  font-size: 19px;
+  color: hsl(241, 100%, 89%);
 }
 
 /*# sourceMappingURL=styles.css.map */
